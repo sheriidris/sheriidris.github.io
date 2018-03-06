@@ -1,0 +1,96 @@
+body{
+font-family: monospace;
+background: linear-gradient(red, black, green );
+color: white;
+border-style: solid;
+border-width: 10px;
+border-color: linear-gradient(black, green, red);
+margin: 24px;
+}
+.list  {
+width: 30%;
+text-align: justified;
+color: white;
+line-height: 30px;
+font-size: 18px;
+border: double 7px;
+border-color:white;
+padding: 37px;
+border-radius: 35%;
+list-style-type: none;
+}
+.time {
+
+text-align: right;
+
+margin-left: 70%;
+color: white;
+line-height: 30px;
+font-size: 18px;
+border: double 7px;
+border-color:white;
+padding: 37px;
+border-radius: 35%;
+list-style-type: none;
+}
+ p {
+
+font-size: 20px;
+text-align: center;
+padding: 25px;
+line-height: 25px;
+
+ }
+
+
+
+header {
+  color: green;
+  font-size: 90px;
+  height: 60px;
+  border-bottom: solid 2px;
+  padding: 40px;
+font-weight: bold;
+font-family:sans-serif;
+text-shadow:  0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                  0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                  0 6px 1px rgba(0,0,0,.1),
+                  0 0 5px rgba(0,0,0,.1),
+                   0 1px 3px rgba(0,0,0,.3),
+                   0 3px 5px rgba(0,0,0,.2),
+                   0 5px 10px rgba(0,0,0,.25),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.15);
+
+text-align: center ;
+
+}
+a:link {
+color: yellow;
+font-size: 18px;
+transition: 2s;
+}
+a:hover {
+color: grey;
+font-size: 21px;
+}
+
+img {
+transition: transform 7s;
+
+}
+
+img:hover {
+transform: rotate(1080deg);
+
+}
+h1 {
+text-align: center;
+font-weight: bold;
+border-top: solid 10px;
+border-bottom: solid 10px;
+
+}
